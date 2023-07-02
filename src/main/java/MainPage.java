@@ -17,7 +17,7 @@ public class MainPage {
 
         webDriver.findElement(By.id("q")).sendKeys("QA"); // в окно поиска побавить слово QA
 
-        webDriver.findElement(By.xpath("/html/body/div[2]/div[4]/div/a/img")).click();
+        webDriver.findElement(By.xpath("/html/body/div[2]/div[4]/div/a/img")).click(); //нажать кнопку поиска
 
         //webDriver.findElement(By.xpath("/html/body/div[1]/form/div/div[3]/div/input")).click();
 
