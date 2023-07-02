@@ -15,7 +15,7 @@ public class MainPage {
         webDriver.get("http://it-ebooks.info/");  // открыть тестируемое приложение, перейдя по URL
 
 
-        webDriver.findElement(By.id("q")).sendKeys("QA");
+        webDriver.findElement(By.id("q")).sendKeys("QA"); // в окно поиска побавить слово QA
 
         webDriver.findElement(By.xpath("/html/body/div[2]/div[4]/div/a/img")).click();
 
